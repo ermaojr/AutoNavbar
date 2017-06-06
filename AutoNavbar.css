@@ -1,0 +1,28 @@
+/*初始化*/
+.auto-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform .5s;
+}
+.hidden {
+  transform: translateY(-100%);
+}
+
+/*以下是无关样式*/
+*{
+	list-style: none;
+	text-decoration: none;
+  padding:0;
+  margin:0;
+}
+body{
+	height: 2000px;
+}
+li{
+	float: left;
+}
+nav{
+  height: 100px;
+  background-color:red;
+}
